@@ -1,0 +1,127 @@
+/* Shield */
+#shield {
+    width: 70%;
+    height: 70%;
+    background-color: white;
+    clip-path: polygon(50% 0%, 90% 20%, 90% 75%, 50% 100%, 10% 75%, 10% 20%);
+}
+
+/* Star */
+#star {
+    width: 70%;
+    height: 70%;
+    background-color: yellow;
+    clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);
+}
+
+/* Triangle */
+#triangle {
+    width: 70%;
+    height: 70%;
+    background-color: blue;
+    clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+}
+
+/* Diamond */
+#diamond {
+    width: 70%;
+    height: 70%;
+    background-color: green;
+    clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
+}
+
+/* Pentagon */
+#pentagon {
+    width: 70%;
+    height: 70%;
+    background-color: red;
+    clip-path: polygon(50% 0%, 100% 38%, 82% 100%, 18% 100%, 0% 38%);
+}
+
+/* Hexagon */
+#hexagon {
+    width: 70%;
+    height: 70%;
+    background-color: purple;
+    clip-path: polygon(25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%, 0% 50%);
+}
+
+/* Octagon */
+#octagon {
+    width: 70%;
+    height: 70%;
+    background-color: orange;
+    clip-path: polygon(30% 0%, 70% 0%, 100% 30%, 100% 70%, 70% 100%, 30% 100%, 0% 70%, 0% 30%);
+}
+
+/* Heart */
+#heart {
+    width: 70%;
+    height: 70%;
+    background-color: pink;
+    clip-path: polygon(50% 15%, 61% 4%, 75% 4%, 87% 17%, 87% 31%, 50% 66%, 13% 31%, 13% 17%, 25% 4%, 39% 4%);
+}
+
+/* Arrow */
+#arrow {
+    width: 70%;
+    height: 70%;
+    background-color: cyan;
+    clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 50% 70%, 0% 70%, 0% 30%, 50% 30%);
+}
+
+/* Parallelogram */
+#parallelogram {
+    width: 70%;
+    height: 70%;
+    background-color: teal;
+    clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
+}
+
+/* Crescent */
+#crescent {
+    width: 70%;
+    height: 70%;
+    background-color: lightgray;
+    clip-path: polygon(60% 50%, 75% 30%, 90% 40%, 85% 70%, 60% 70%, 50% 90%, 40% 60%, 50% 30%);
+}
+
+/* Trapezoid */
+#trapezoid {
+    width: 70%;
+    height: 70%;
+    background-color: darkblue;
+    clip-path: polygon(20% 0%, 80% 0%, 100% 100%, 0% 100%);
+}
+
+/* House */
+#house {
+    width: 70%;
+    height: 70%;
+    background-color: brown;
+    clip-path: polygon(50% 0%, 100% 35%, 100% 100%, 0% 100%, 0% 35%);
+}
+
+/* Cross */
+#cross {
+    width: 70%;
+    height: 70%;
+    background-color: maroon;
+    clip-path: polygon(30% 0%, 70% 0%, 70% 30%, 100% 30%, 100% 70%, 70% 70%, 70% 100%, 30% 100%, 30% 70%, 0% 70%, 0% 30%, 30% 30%);
+}
+
+/* Chevron */
+#chevron {
+    width: 70%;
+    height: 70%;
+    background-color: violet;
+    clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
+}
+
+/* Cloud */
+#cloud {
+    width: 70%;
+    height: 70%;
+    background-color: lightblue;
+    clip-path: polygon(20% 40%, 35% 25%, 60% 30%, 75% 20%, 90% 40%, 85% 55%, 60% 65%, 40% 60%, 20% 50%);
+}

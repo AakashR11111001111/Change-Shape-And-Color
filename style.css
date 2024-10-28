@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main-container{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main-box{
+    border: 3px;
+    height: 60%;
+    width: 50%;
+    border-radius: 10px;
+    overflow: hidden;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 0 0 100px 3px rgba(0, 0, 70, 0.5);
+    animation: fade-in 2s ease;
+}
+
+.color-box{
+    border-radius: 50%;
+    width: 40%;
+    height: 80%;
+    padding: 10px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.3s ease;
+}
+
+
+.buttons-div{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 10px;
+    animation: fade-in 2s ease 1s forwards;  
+    opacity: 0;
+    scale: 0;
+}
+
+
+.buttons{
+    padding: 10px 20px;
+    font-size: 30px;
+    border-radius: 20px;
+    border: none;
+    transition: all 0.3s ease;
+    background: white;
+}
+
+.buttons:active{
+    animation: bounce 1s linear;   
+    box-shadow: 0 0 20px 1px rgba(0,0,0,0.5); 
+}
+
+.buttons:hover{
+    cursor: pointer;
+    background: linear-gradient(to top, rgba(0,0,0,0.1), white);
+    color: white;
+    -webkit-text-stroke: 0.8px rgba(0, 0, 70, 0.8);
+    color: violet;
+    transform: translateY(-5px);
+}
+
+.shape{
+    transition: all 0.3s ease;
+}
+
+
+@keyframes fade-in {
+    from{
+        opacity: 0;
+        scale: 0;
+    }
+    to{
+        opacity: 1;
+        scale: 1;
+    }
+}
+
+@keyframes bounce {
+    0%{
+        transform: translateY(0px);
+    }
+    50%{
+        transform: translateY(3px);
+    }
+    100%{
+        transform: translateY(0px);
+    }
+    
+}
